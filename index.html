@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penjualan Mobil Impian Anda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>AutoDeal</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#featured">Mobil Unggulan</a></li>
+            <li><a href="#inventory">Inventaris</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Temukan Mobil Impian Anda Hari Ini</h2>
+        <p>Jelajahi koleksi mobil terbaik dengan harga bersaing.</p>
+        <a href="#inventory" class="btn">Lihat Semua Mobil</a>
+      </div>
+    </section>
+
+    <section id="featured" class="featured-cars">
+      <div class="container">
+        <h2>Mobil Unggulan Kami</h2>
+        <div class="car-grid">
+          <div class="car-item">
+            <img src="images/ToyotaCamry2023.jpg" alt="ToyotaCamry2023" />
+            <h3>Toyota Camry 2023</h3>
+            <p>Sedan mewah dengan performa luar biasa.</p>
+            <span class="price">Rp 450.000.000</span>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+          <div class="car-item">
+            <img src="images/HondaCRV2022.jpeg" alt="Honda CRV 2022" />
+            <h3>Honda CRV 2022</h3>
+            <p>SUV tangguh dan nyaman untuk keluarga.</p>
+            <span class="price">Rp 380.000.000</span>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+          <div class="car-item">
+            <img
+              src="images/MercedesBenzCClass2024.png"
+              alt="Mercedes Benz C Class 2024"
+            />
+            <h3>Mercedes-Benz C-Class 2024</h3>
+            <p>Elegansi dan teknologi dalam satu paket.</p>
+            <span class="price">Rp 750.000.000</span>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inventory" class="inventory">
+      <div class="container">
+        <h2>Inventaris Mobil Tersedia</h2>
+        <div class="filters">
+          <input type="text" placeholder="Cari mobil..." />
+          <select>
+            <option value="">Semua Merek</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="mercedes">Mercedes-Benz</option>
+            <option value="bmw">BMW</option>
+          </select>
+          <select>
+            <option value="">Semua Tipe</option>
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="hatchback">Hatchback</option>
+          </select>
+        </div>
+        <div class="car-grid">
+          <div class="car-item">
+            <img src="images/BMW 3 Series 2023.jpg" alt="Mobil 4" />
+            <h3>BMW 3 Series 2023</h3>
+            <p>Performa sporty dan desain ikonik.</p>
+            <span class="price">Rp 600.000.000</span>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+          <div class="car-item">
+            <img src="images/Suzuki Swift 2021.webp" alt="Mobil 5" />
+            <h3>Suzuki Swift 2021</h3>
+            <p>Mobil kompak lincah untuk perkotaan.</p>
+            <span class="price">Rp 200.000.000</span>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+          <div class="car-item">
+            <img src="images/Toyota Avanza 2020.avif" alt="Mobil 6" />
+            <h3>Toyota Avanza 2020</h3>
+            <p>MPV keluarga yang luas dan nyaman.</p>
+            <span class="price">Rp 230.000.000</span>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Hubungi Kami</h2>
+        <p>
+          Punya pertanyaan atau ingin tahu lebih lanjut? Jangan ragu hubungi
+          kami!
+        </p>
+        <form>
+          <input type="text" placeholder="Nama Anda" required />
+          <input type="email" placeholder="Email Anda" required />
+          <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 AutoDeal. Semua Hak Dilindungi.</p>
+      </div>
+    </footer>
+  </body>
+</html>
